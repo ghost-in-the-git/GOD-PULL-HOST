@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GOD PULL - Omen Viewer</title>
+  <style>
+    html, body { margin: 0; height: 100%; overflow: hidden; background: linear-gradient(180deg, #e6f4ff 0%, #bfe3ff 100%); }
+    #app { width: 100vw; height: 100vh; }
+    #app canvas { display: block; }
+    #hud {
+      position: fixed; left: 14px; bottom: 12px; z-index: 5;
+      font: 600 13px/1.2 system-ui, sans-serif; color: #33475b; opacity: 0.8;
+      letter-spacing: 0.02em; user-select: none;
+    }
+    #err {
+      position: fixed; inset: 0; display: none; place-items: center;
+      font: 500 15px system-ui, sans-serif; color: #7a2b2b; text-align: center; padding: 24px;
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-D1to9CUk.js"></script>
+</head>
+<body>
+  <div id="app"></div>
+  <div id="hud"></div>
+  <div id="err"></div>
+</body>
+</html>
